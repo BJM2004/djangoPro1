@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Connexion{% endblock %}
+{% block bodyId %}LoginPage{% endblock %}
+{% block content %}
+    <form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <p>
+        <input type="submit" value="Se connecter">
+        <a href="{% url 'register' %}" >Créer un compte</a>
+    </p>
+    </form>
+{% endblock %}

@@ -1,0 +1,181 @@
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background: url("../img/trombinoscoop.png") #3b5998 no-repeat 50px 25px;
+    background-size: contain;
+    border-bottom: 1px solid #133783;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande";
+    font-size: 11px;
+    color: #000333;
+}
+body section#content{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    width: 500px;
+    margin: 0 0 0 -250px;
+    padding: 0;
+}
+body#LoginPage section#content{
+    top: 150px;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+    margin: 0px 60px 30px 60px;
+    padding: 0 0 5px 0;
+    color: #3b5998;
+    border-bottom: 1px solid #3b5998;
+}
+form label{
+    display: block;
+    width: 150px;
+    float: left;
+    text-align: right;
+    padding: 4px 10px 0 0;
+}
+form input[type="email"], form input[type="text"], form input[type="password"]{
+    display: block;
+    width: 250px;
+    padding: 2px;
+}
+form input[type="submit"]{
+    margin: 0 20px 0 160px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+    background-color: #3b5998;
+    color: #ffffff;
+    padding: 2px 15px 3px 15px;
+    text-align: center;
+}
+ul.errorlist {
+    margin-left: 160px;
+    padding: 0;
+    list-style-type: none;
+    color: #d23d24;
+}
+a{
+    color: #3b5998;
+}
+body#welcomePage header{
+    background: #3b5998 url("../img/shortLogo.png") no-repeat 15px 0px;
+    background-size: contain;
+    color: white;
+    padding-top: 15px;
+}
+body#welcomePage header p#name{
+    font-size: 22px;
+    margin: 0 0 0 110px;
+}
+body#welcomePage header p#fonction{
+      font-size: 15px;
+    margin: 5px 0 0 110px;
+
+}
+body#welcomePage header p#profileLinks{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+a.buttonLink{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+    background-color: #3b5998;
+    color: white;
+    padding: 2px 25px 3px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+
+}
+body#welcomePage section#content{
+    width: 800px;
+    margin: 0 0 0 -400px;
+
+}
+body#welcomePage section#messageList{
+    position: absolute;
+    width: 600px;
+
+}
+body#welcomePage section#friendList{
+    position: absolute;
+    width: 180px;
+    right: 0;
+    padding: 10px;
+    background-color: #DCE0ED;
+}
+section#friendList p.title{
+    font-size: 22px;
+    color: #3b5998;
+    border-bottom: 1px solid #3b5998;
+    margin: 0 0 20px 0;
+}
+section#friendList ul{
+    margin: 20px 0 0 0;
+    list-style: none;
+    padding: 0;
+}
+section#friendList ul li{
+    margin: 0 0 5px 0;
+}
+form.inlineForm label{
+    display: inline;
+    float: none;
+    padding: 0;
+}
+form.inlineForm input[type="text"]{
+    display: inline-block;
+    width: 150px;
+}
+form.inlineForm input[type="submit"]{
+    margin: 0;
+}
+section#messageList ul{
+    margin: 20px 0 0 0;
+    list-style: none;
+    padding: 0;
+}
+section#messageList ul li{
+    margin-bottom: 10px;
+}
+section#messageList ul li p{
+    margin: 8px 0 0 0;
+}
+dl.fieldList dt{
+    display: block;
+    width: 250px;
+    float: left;
+    text-align: right;
+    padding: 0 10px 0 0;
+    font-weight: bold;
+    font-size: x-large;
+}
+dl.fieldList dd{
+    display: block;
+    width: 570px;
+    padding: 0px;
+    margin: 0 0 10px 0;
+    font-size: x-large;
+
+}
+p#showProfileNavigationButtons{
+    margin: 20px 0 0 199px;
+    font-size: large;
+}
+#friendList form.inlineForm input[type="email"]{
+    display: inline-block;
+    width: 75px;
+}
+#friendList form.inlineForm input[type="submit"]{
+    display: inline-block;
+}
